@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "330652562374",
+    "firebase_url": "https://insight-54613.firebaseio.com",
+    "project_id": "insight-54613",
+    "storage_bucket": "insight-54613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330652562374:android:8d857997b968cb6fa378c7",
+        "android_client_info": {
+          "package_name": "com.example.release"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330652562374-8snc9veuo5cvlh3837tk5asmqsnbmd3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlhLa96bqUOOvWLoQu55is-VcyKMpedPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330652562374-8snc9veuo5cvlh3837tk5asmqsnbmd3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

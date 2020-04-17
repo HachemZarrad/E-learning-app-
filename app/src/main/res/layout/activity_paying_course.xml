@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <include layout="@layout/toolbar"></include>
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/dfg"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="290dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/ph"
+        android:hint="  CARD NUMBER"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorBack"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:background="@color/ph"
+        android:layout_gravity="center"
+        android:hint="  EXPIRATION DATE"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="@color/colorBack"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:background="@color/ph"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorBack"
+        android:hint="  CVV"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@color/registerButton"
+        android:gravity="center"
+        android:text="ENROLL"
+        android:onClick="enroll"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:onClick="toFav"
+        app:srcCompat="@drawable/ic_star_black_24dp"
+
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consult course owner"
+        android:onClick="consult"/>
+
+
+</LinearLayout>

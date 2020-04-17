@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.release">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pdf2"></activity>
+        <activity android:name=".PayingCourse" />
+        <activity android:name=".Email" />
+        <activity android:name=".PhoneCall" />
+        <activity android:name=".ConsultProfile" />
+        <activity android:name=".InstructorProfile" />
+        <activity android:name=".InstructorOwnCourses" />
+        <activity android:name=".InstructorCatalog" />
+        <activity android:name=".NavigationDrawerForInstructor" />
+        <activity android:name=".Pdf" />
+        <activity android:name=".Modules" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Favorite" />
+        <activity android:name=".Courses" />
+        <activity android:name=".Catalog" />
+        <activity android:name=".NavigationDrawerForStudent" />
+        <activity android:name=".InstructorLog" />
+        <activity android:name=".InstructorRegCVV" />
+        <activity android:name=".GoogleLogin" />
+        <activity android:name=".FacebookLogin" />
+        <activity android:name=".InstructorReg" />
+        <activity android:name=".StudentReg" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

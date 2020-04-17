@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_catalog"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Catalog" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="My Courses" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="Profile" />
+
+        </menu>
+    </item>
+
+
+</menu>

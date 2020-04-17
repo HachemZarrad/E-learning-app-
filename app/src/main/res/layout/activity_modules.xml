@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBack"
+    android:foregroundGravity="center"
+    tools:context=".NavigationDrawerForStudent"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/editTextText"
+            >
+
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/editTextText"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/editTextText"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/editText4"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:background="@color/editTextBack"
+            android:gravity="center_vertical"
+            android:textColorHint="@color/editTextText"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+
+
+        >
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="243dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/imageView7"
+            android:background="@color/registerButton"
+            android:gravity="center"
+            android:text="Back"
+            android:onClick="back"
+            android:textColor="@color/ph"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

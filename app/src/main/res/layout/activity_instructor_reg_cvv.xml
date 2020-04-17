@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/instructor"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="290dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/ph"
+        android:hint="  CARD NUMBER"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorBack"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:background="@color/ph"
+        android:layout_gravity="center"
+        android:hint="  EXPIRATION DATE"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="@color/colorBack"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:background="@color/ph"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorBack"
+        android:hint="  CVV"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/registerButton"
+        android:gravity="center"
+        android:text="SAVE"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/ph"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="20dp"
+            android:textColor="@color/vector"
+            android:text="Already have an account ?"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/registerButton"
+            android:text="Login here"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
